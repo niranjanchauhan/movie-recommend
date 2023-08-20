@@ -1,7 +1,8 @@
 # Movie-Recommender-System
 
 
-https://github.com/Findcoding/Movie-Recommender-System/assets/69085143/74b89f1d-fc61-491e-8078-41c25478bc4f
+![image](https://github.com/niranjanchauhan/movie-recommend/assets/56686095/823070c7-386d-4f25-ba8b-44341f17f068)
+
 
 
 <!-- ![Home](https://github.com/Findcoding/Movie-Recommender-System/assets/69085143/402066ea-d069-4aed-98a6-ad72069b9f37) -->
@@ -28,7 +29,8 @@ python manage.py runserver
 
 ## Implementation 
 - **Simple Recommender:** The Simple Recommender offers generalized recommnendations to every user based on movie popularity and (sometimes) genre. The basic idea behind this recommender is that movies that are more popular and more critically acclaimed will have a higher probability of being liked by the average audience. This model does not give personalized recommendations based on the user. The implementation of this model is extremely trivial. All you have to do is sort our movies based on ratings and popularity and display the top movies of our list. As an added step, we can pass in a genre argument to get the top movies of a particular genre.
-![Simple Recommender]![image](https://github.com/niranjanchauhan/movie-recommend/assets/56686095/501a8db2-7b39-4ccc-ae52-35ba7a43e5a8)
+![Simple Recommender]!![image](https://github.com/niranjanchauhan/movie-recommend/assets/56686095/ed43b3ae-c4db-4055-a1cc-6e185c271f7b)
+
 
 
 - **Content Based Recommender:** The recommender we built in the previous section suffers some severe limitations. For one, it gives the same recommendation to everyone, regardless of the user's personal taste. If a person who loves romantic movies (and hates action) were to look at our Top 15 Chart, s/he wouldn't probably like most of the movies. If s/he were to go one step further and look at our charts by genre, s/he wouldn't still be getting the best recommendations.
