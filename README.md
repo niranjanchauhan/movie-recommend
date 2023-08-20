@@ -46,7 +46,4 @@ This is how it will work:
  _Output:_ Similar movies sorted on the basis of expected ratings by that particular user.
  ![Hybrid Recommender](https://github.com/Findcoding/Movie-Recommender-System/assets/69085143/6606777b-4b43-404a-8050-cc639d7c15a6)
 
-> ## Contributors:
-- [Bijendar Prasad](https://github.com/Findcoding "GitHub Profile")
-- [Sourabh Mishra](https://github.com/SOURABHMISHRA5221 "GitHub Profile")
-- [Mitul](https://github.com/mitul19254 "GitHub Profile")
+
