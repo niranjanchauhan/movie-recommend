@@ -25,12 +25,11 @@ pip install -r requirements.txt
 ```sh
 python manage.py runserver
 ```
-## Project Report
-- [Link](https://docs.google.com/presentation/d/12CbAwLRKh0JN6CNpZPq6RqJ4zktfQh-1YTOaLcsqV1M/edit?usp=sharing)
 
 ## Implementation 
 - **Simple Recommender:** The Simple Recommender offers generalized recommnendations to every user based on movie popularity and (sometimes) genre. The basic idea behind this recommender is that movies that are more popular and more critically acclaimed will have a higher probability of being liked by the average audience. This model does not give personalized recommendations based on the user. The implementation of this model is extremely trivial. All you have to do is sort our movies based on ratings and popularity and display the top movies of our list. As an added step, we can pass in a genre argument to get the top movies of a particular genre.
-![Simple Recommender](https://github.com/Findcoding/Movie-Recommender-System/assets/69085143/5d39471b-3e3a-46a4-ab6b-5d12b28685be)
+![Simple Recommender]![image](https://github.com/niranjanchauhan/movie-recommend/assets/56686095/501a8db2-7b39-4ccc-ae52-35ba7a43e5a8)
+
 
 - **Content Based Recommender:** The recommender we built in the previous section suffers some severe limitations. For one, it gives the same recommendation to everyone, regardless of the user's personal taste. If a person who loves romantic movies (and hates action) were to look at our Top 15 Chart, s/he wouldn't probably like most of the movies. If s/he were to go one step further and look at our charts by genre, s/he wouldn't still be getting the best recommendations.
 
