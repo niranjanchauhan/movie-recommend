@@ -36,13 +36,15 @@ python manage.py runserver
 For instance, consider a person who loves Dilwale Dulhania Le Jayenge, My Name is Khan and Kabhi Khushi Kabhi Gham. One inference we can obtain is that the person loves the actor Shahrukh Khan and the director Karan Johar. Even if s/he were to access the romance chart, s/he wouldn't find these as the top recommendations.
 
 To personalise our recommendations more, we build an engine that computes similarity between movies based on certain metrics and suggests movies that are most similar to a particular movie that a user liked. Since we will be using movie metadata (or content) to build this engine.
-![Content Based Recommender](https://github.com/Findcoding/Movie-Recommender-System/assets/69085143/8cf0f430-b703-4980-931f-67d3e9ceea0d)
+![Content Based Recommender]![image](https://github.com/niranjanchauhan/movie-recommend/assets/56686095/6a01f007-36a0-4277-9efb-5762b8e8cb9b)
+
 
 - **Hybrid Recommender:** In this section, We build a simple hybrid recommender that brings together techniques we have implemented in the content based and collaborative filter based engines. 
 
 This is how it will work:
  _Input:_ User ID and the Title of a Movie
  _Output:_ Similar movies sorted on the basis of expected ratings by that particular user.
- ![Hybrid Recommender](https://github.com/Findcoding/Movie-Recommender-System/assets/69085143/6606777b-4b43-404a-8050-cc639d7c15a6)
+ ![Hybrid Recommender]![image](https://github.com/niranjanchauhan/movie-recommend/assets/56686095/1359f1ff-5a92-44be-9e9d-5030efe56908)
+
 
 
